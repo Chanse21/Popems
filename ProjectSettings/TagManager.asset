@@ -10,6 +10,8 @@ TagManager:
   - Left wall
   - Right wall
   - Ceiling
+  - Balloon
+  - Bullet
   layers:
   - Default
   - TransparentFX
