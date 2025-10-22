@@ -26,8 +26,8 @@ public class Bullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Balloon"))
         {
             Destroy(collision.gameObject);
+            ScoreManager.instance.AddScore(1); // Add 1 Points (you can change this value)
         }
-
         // Destroy the bullet on collision
         Destroy(gameObject);
     }
